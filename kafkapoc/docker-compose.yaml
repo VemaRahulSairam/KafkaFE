@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: image  # Replace with the name and tag of your built image
+    ports:
+      - "1234:3000"  # Map port 8080 on the host to port 80 in the container (adjust as needed)

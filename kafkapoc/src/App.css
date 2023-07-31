@@ -1,0 +1,49 @@
+
+.App {
+  min-height: 92vh;
+  display :flex;
+  flex-direction: column; 
+}
+
+
+.loginPage{
+  background-color: rgba(20, 104, 197 , 0.1);
+  height: 500px;
+  width:400px;
+  align-Self:center;
+  margin-Top:60px;
+ 
+}
+.headingFont{
+  font-weight: bold;
+  font-family: "Calibri",'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+.inputHeight{
+  height: 25px;
+  width: 300px;
+  /* margin-top: 10px; */
+  margin-left: 20px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #313851;
+  display: block;
+}
+.inputHeight:focus{
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #313851;
+}
+
+.asterisk{
+  color: red;
+}
+.btn{
+  background-color: rgb(67, 124, 222);
+  width: 190px;
+  height: 32px;
+  border:1px gray;
+  font-size: 16px;
+}
+
+
